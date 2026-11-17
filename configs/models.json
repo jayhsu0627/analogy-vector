@@ -1,0 +1,103 @@
+{
+  "_note": "layer = steering layer l* selected on the dev split (argmax harmonic mean among layers with KL < 0.1); alpha = best steering coefficient on the test split; stability_layer = cosine-stability transition layer (Appendix A.2). Layer index l means the residual stream after transformer block l (TransformerLens blocks.{l}.hook_resid_post).",
+  "models": {
+    "gemma-2-2b-it": {
+      "hf_id": "google/gemma-2-2b-it",
+      "variant": "instruct",
+      "layer": 9,
+      "alpha": 1.0,
+      "stability_layer": 20
+    },
+    "gemma-2-2b": {
+      "hf_id": "google/gemma-2-2b",
+      "variant": "base",
+      "layer": 2,
+      "alpha": 2.0,
+      "stability_layer": 18
+    },
+    "gemma-2-9b-it": {
+      "hf_id": "google/gemma-2-9b-it",
+      "variant": "instruct",
+      "layer": 18,
+      "alpha": 1.0,
+      "stability_layer": 28
+    },
+    "gemma-2-9b": {
+      "hf_id": "google/gemma-2-9b",
+      "variant": "base",
+      "layer": 5,
+      "alpha": 1.5,
+      "stability_layer": 26
+    },
+    "gemma-2-27b-it": {
+      "hf_id": "google/gemma-2-27b-it",
+      "variant": "instruct",
+      "layer": 16,
+      "alpha": 1.0,
+      "stability_layer": 24
+    },
+    "gemma-2-27b": {
+      "hf_id": "google/gemma-2-27b",
+      "variant": "base",
+      "layer": 0,
+      "alpha": 2.0,
+      "stability_layer": 25
+    },
+    "llama-3.1-8b-instruct": {
+      "hf_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "variant": "instruct",
+      "layer": 11,
+      "alpha": 1.5,
+      "stability_layer": 19
+    },
+    "llama-3.1-8b": {
+      "hf_id": "meta-llama/Llama-3.1-8B",
+      "variant": "base",
+      "layer": 15,
+      "alpha": 2.0,
+      "stability_layer": 18
+    },
+    "qwen-2.5-7b-instruct": {
+      "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+      "variant": "instruct",
+      "layer": 13,
+      "alpha": 2.0,
+      "stability_layer": 24
+    },
+    "qwen-2.5-7b": {
+      "hf_id": "Qwen/Qwen2.5-7B",
+      "variant": "base",
+      "layer": 18,
+      "alpha": 1.5,
+      "stability_layer": 24
+    },
+    "qwen-2.5-14b-instruct": {
+      "hf_id": "Qwen/Qwen2.5-14B-Instruct",
+      "variant": "instruct",
+      "layer": 24,
+      "alpha": 2.0,
+      "stability_layer": 32
+    },
+    "qwen-2.5-14b": {
+      "hf_id": "Qwen/Qwen2.5-14B",
+      "variant": "base",
+      "layer": 29,
+      "alpha": 1.5,
+      "stability_layer": 32
+    },
+    "qwen-2.5-32b-instruct": {
+      "hf_id": "Qwen/Qwen2.5-32B-Instruct",
+      "variant": "instruct",
+      "layer": 25,
+      "alpha": 2.0,
+      "stability_layer": 46
+    },
+    "qwen-2.5-32b": {
+      "hf_id": "Qwen/Qwen2.5-32B",
+      "variant": "base",
+      "layer": 45,
+      "alpha": 1.5,
+      "stability_layer": 48
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# Evaluation: layer sweep, LLM judge (Qwen2.5-72B-Instruct-AWQ via vLLM), layer selection stats
+-r requirements.txt
+vllm
+scipy

@@ -1,0 +1,7 @@
+# Core: extract, orthogonalize, steer (tested with torch 2.9.0, transformer_lens 2.11.0, transformers 4.57.1)
+torch>=2.1
+transformer_lens>=2.11,<3
+transformers>=4.44
+huggingface_hub
+numpy
+tqdm
