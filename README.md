@@ -1,11 +1,13 @@
 # Analogy Vector
 
-Code for **From Geometry to Behavior: How Instruction Exposure Unlocks Latent Rhetorical Directions in LLMs** (COLM 2026).
+[![COLM 2026](https://img.shields.io/badge/COLM-2026-4b44ce)](https://colmweb.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.37685-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.37685)
+[![Project page](https://img.shields.io/badge/%F0%9F%8C%90%20Project-Page-2ea44f)](https://shengjie-xu.com/conferences/2026_COLM_analogy-vector/)
+[![Demo](https://img.shields.io/badge/Demo-HF%20Space-ffd21e?logo=huggingface&logoColor=white)](https://huggingface.co/spaces/HuggingJady/analogy-vector)
+[![Dataset](https://img.shields.io/badge/Dataset-HF%20Hub-ffd21e?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/HuggingJady/analogy-vector)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
-[Paper (arXiv:2610.37685)](https://arxiv.org/abs/2610.37685) ·
-[Project page](https://shengjie-xu.com/conferences/2026_COLM_analogy-vector/) ·
-[Live demo](https://huggingface.co/spaces/HuggingJady/analogy-vector) ·
-[Dataset](https://huggingface.co/datasets/HuggingJady/analogy-vector)
+Code for **From Geometry to Behavior: How Instruction Exposure Unlocks Latent Rhetorical Directions in LLMs** (COLM 2026).
 
 A single residual-stream direction, the difference between mean activations for analogy and literal
 explanation prompts, steers a model toward or away from explaining by analogy. Across seven matched
